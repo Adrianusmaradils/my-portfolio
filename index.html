@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Adrianus Maradil Simatupang</title>
+    <style>
+       :root {
+    --primary: #1a1a1a;    /* Hitam elegan untuk teks */
+    --secondary: #666;     /* Abu-abu untuk sub-teks */
+    --accent: #10b981;    /* Hijau emerald modern */
+    --bg: #ffffff;        /* Putih bersih */
+    --card-border: #f0f0f0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg);
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    padding: 100px 20px 60px;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--secondary);
+    margin-bottom: 30px;
+}
+
+.project-card {
+    border: 1px solid var(--card-border);
+    padding: 40px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-5px);
+}
+
+.tag {
+    font-size: 0.75rem;
+    padding: 4px 12px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-right: 8px;
+    color: var(--secondary);
+}
+
+.status-live {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--accent);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0 10px var(--accent);
+}
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+  <header>
+    <h1>Adrianus M.S.</h1>
+    <p>Membangun solusi otomasi dengan Python & Linux.</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Work</h2>
+        <div class="project-card">
+            <div class="status-live"><span class="dot"></span> Systemd Service Active</div>
+            <h3>Linux Smart File Organizer</h3>
+            <p>Merapikan ekosistem file secara otomatis menggunakan Python watchdog. Berjalan sebagai daemon sistem yang efisien.</p>
+            <div style="margin-top: 20px;">
+                <span class="tag">Python</span>
+                <span class="tag">Linux</span>
+                <span class="tag">Automation</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Connect</h2>
+        <p>Tersedia untuk proyek otomasi baru. <a href="mailto:email@anda.com" style="color: var(--primary); font-weight: bold;">Kirim Email →</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Adrianus Maradil Simatupang. Powered by Python & Linux.</p>
+</footer>
+
+</body>
+</html>
